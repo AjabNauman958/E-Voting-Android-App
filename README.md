@@ -7,36 +7,36 @@ The E-Voting System covers a wide range of functionalities, including user regis
 
 # Features:
   ## 1.	Splash Screen:
-    •	Serves as the launcher activity with a 3-second display duration.
-    •	Redirects users to the login or home screen based on their login status.
+  •	Serves as the launcher activity with a 3-second display duration.
+  •	Redirects users to the login or home screen based on their login status.
   ## 2.	Signup Screen:
-    •	Facilitates user registration with fields for name, email, password, and recovery email.
-    •	Employs AsyncTask for signup tasks, SQLite for database interaction, and redirects to login upon successful signup.
+  •	Facilitates user registration with fields for name, email, password, and recovery email.
+  •	Employs AsyncTask for signup tasks, SQLite for database interaction, and redirects to login upon successful signup.
   ## 3.	Login Screen:
-    •	Features a clean layout with email and password input fields.
-    •	Validates user input, checks credentials against the SQLite database, and navigates to the home screen on successful login.
-    •	Provides options for signup and password recovery.
+  •	Features a clean layout with email and password input fields.
+  •	Validates user input, checks credentials against the SQLite database, and navigates to the home screen on successful login.
+  •	Provides options for signup and password recovery.
   ## 4.	Forget Password Screen:
-    •	Allows users to reset passwords with email input, reset password button, and dynamic visibility buttons.
-    •	Manages user input, checks email existence, and displays the password if the email is registered.
-    •	Offers navigation to login or signup screens.
+  •	Allows users to reset passwords with email input, reset password button, and dynamic visibility buttons.
+  •	Manages user input, checks email existence, and displays the password if the email is registered.
+  •	Offers navigation to login or signup screens.
   ## 5.	Home Screen:
-    •	Displays a toolbar with menu and profile icons.
-    •	Enables user registration, voting, and result viewing.
-    •	Manages click events for various actions, including logout.
+  •	Displays a toolbar with menu and profile icons.
+  •	Enables user registration, voting, and result viewing.
+  •	Manages click events for various actions, including logout.
   ## 6.	Voter Registration Screen:
-    •	Allows users to register for voting with input fields for personal details and location selection.
-    •	Validates input, manages a local database, and provides confirmation dialogs.
-    •	Prompts users to vote or return to the main menu upon successful registration.
+  •	Allows users to register for voting with input fields for personal details and location selection.
+  •	Validates input, manages a local database, and provides confirmation dialogs.
+  •	Prompts users to vote or return to the main menu upon successful registration.
   ## 7.	Voter Registration Verification Screen:
-    •	Enables users to verify registration using CNIC with input, submit, and register buttons.
-    •	Validates CNIC format, checks registration status, and navigates users based on verification.
+  •	Enables users to verify registration using CNIC with input, submit, and register buttons.
+  •	Validates CNIC format, checks registration status, and navigates users based on verification.
   ## 8.	Cast Vote Screen:
-    •	Allows users to cast votes with an action bar, description, RecyclerView for party selection, and cast vote button.
-    •	Initializes RecyclerView with party data, handles voting logic, and updates the database.
+  •	Allows users to cast votes with an action bar, description, RecyclerView for party selection, and cast vote button.
+  •	Initializes RecyclerView with party data, handles voting logic, and updates the database.
   ## 9.	Result Screen:
-    •	Displays election results with an action bar, RecyclerView for results, and a "Back to Home" button.
-    •	Initializes RecyclerView, fetches results from the database, and populates using a custom adapter.
+  •	Displays election results with an action bar, RecyclerView for results, and a "Back to Home" button.
+  •	Initializes RecyclerView, fetches results from the database, and populates using a custom adapter.
     
 # Database Structure:
 The SQLite database in the E-Voting System is structured with three tables:
@@ -50,3 +50,6 @@ The SQLite database in the E-Voting System is structured with three tables:
   •	Columns: CNIC (Primary Key), First_Name, Last_Name, Father_Name, DOB, Country, Province, City, House_Address, Vote_Status.
 
 The DatabaseHelper class defines the database schema, and the DatabaseOperations class facilitates essential operations like inserting, checking existence, retrieving data, and updating records.
+
+# Flow Diagram:
+![Mad Project](https://github.com/AjabNauman958/E-Voting-Android-App/assets/114978635/60cb5d3c-2eec-4597-b447-29025de41e4f)
