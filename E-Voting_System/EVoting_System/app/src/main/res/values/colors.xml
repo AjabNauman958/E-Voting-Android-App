@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="App_background_color"> #bfedbe </color>
+    <color name="ForgetPasswordTextViewColor">#b3222a</color>
+    <color name="SignupTextViewColor">#1d89a1</color>
+    <color name="LoginTextViewColor">#1d89a1</color>
+    <color name="ActionBar">#1d89a1</color>
+    <color name="HeadingText">#0A6C1A</color>
+</resources>
